@@ -5,4 +5,4 @@ In this repo, I am updating the airbnb clone html, css as I'm learning new featu
 for illustration of my work progress, I am attaching link to my live project (right noe only having HTML & CSS)
 more updates on the way
 
-https://replit.com/@VipulGupta21/Airbnb-Clone
+https://airbnb-clone.vipulgupta21.repl.co/
