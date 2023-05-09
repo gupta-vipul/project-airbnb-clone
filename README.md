@@ -1,0 +1,8 @@
+# project-airbnb-clone
+In this repo, I am updating the airbnb clone html, css as I'm learning new features and updating in it.
+
+
+for illustration of my work progress, I am attaching link to my live project (right now only having HTML & CSS)
+more updates on the way
+
+https://airbnb-clone.vipulgupta21.repl.co/
