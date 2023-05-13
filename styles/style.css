@@ -16,6 +16,9 @@
 
 /* Header CSS */
 header {
+    position: sticky;
+    top: 0px;
+    background-color: white;
     height: 85px;
     padding: 0px 40px;
     border-bottom: 1px solid rgb(230, 228, 228);
@@ -123,6 +126,9 @@ header .logo img {
 
 
 .filter-sections {
+    position: sticky;
+    top: 85px;
+    background-color: white;
     justify-content: space-evenly;
     align-items: center;
     height: 100px;
@@ -212,9 +218,7 @@ div input:checked + label:before {
 }
 
 .cards {
-    background-color: aquamarine;
-    padding: 10px;
-    box-sizing: border-box;
+    margin-bottom: 30px;
 }
 
 .card-img img {
@@ -222,3 +226,55 @@ div input:checked + label:before {
     height: 18rem;
     width: 18rem;
 }
+
+.card-heading {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: .9rem;
+    opacity: 90%;
+    margin-bottom: 3px;
+}
+
+.card-subheading {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: .8rem;
+    opacity: 70%;
+}
+
+.card-pricing {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: .9rem;
+    font-weight: bold;
+    opacity: 90%;
+    margin-top: 7px;
+}
+
+.card-pricing:before {
+    content: '₹';
+}
+
+.card-pricing span {
+    font-weight: lighter;
+}
+
+/* Footer css */
+footer {
+    padding: 0px 40px;
+    background-color: white;
+    position: sticky;
+    bottom: 0px;
+    border-top: 1px solid rgb(230, 228, 228);
+}
+
+.footer-section {
+    justify-content: space-between;
+}
+
+
+.footer-list li{
+    margin-right: 25px;
+}
+/* 
+.footer-list li::marker {
+    font-weight: lighter;
+} */
