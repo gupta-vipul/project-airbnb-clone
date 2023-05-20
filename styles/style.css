@@ -23,6 +23,7 @@ header {
     padding: 0px 40px;
     border-bottom: 1px solid rgb(230, 228, 228);
     justify-content: space-between;
+    z-index: 1;
 }
 
 header .logo img {
@@ -136,6 +137,7 @@ header .logo img {
     border-bottom: 1px solid rgb(230, 228, 228);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: .75rem;
+    z-index: 1;
 }
 
 .filter-card-box {
